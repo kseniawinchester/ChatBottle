@@ -1,15 +1,17 @@
+
 body {
 	width: 100%;
-	font-family: "Segoe UI", Segoe, Tahoma, Arial, Verdana, sans-serif;
+	font-family: "Segoe UI", Segoe, Tahoma, Arial, Verdana, sans-serif,;
 	background-color: #333333;;
-	text-decoration: none;
-}
+	text-decoration: none; 
+     margin-bottom: 10px;
+ }
 
 a,
 p {
-	color: #acacac;
-	font-size: small;
-	font-weight: 400;
+	color: #929292;
+	font-size: 16px;
+	font-weight: 500;
 }
 a,
 a:hover,
@@ -23,7 +25,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-	color: #1E5A5A;}
+	color: #254d4d;}
 .navbar-default {
     border-color: transparent;
     background-color:#333333;
@@ -31,13 +33,13 @@ a.active {
 	
 }
 .divide>a{
-	border-right: 1px solid #ACACAC;
+	border-right: 1px solid #929292;
 }
 
 
 .navbar-default .navbar-brand {
     	font-family: "Segoe UI", Segoe, Tahoma, Arial, Verdana, sans-serif,cursive;
-    color: #ACACAC;
+    color: #929292;
 	
 }
 
@@ -45,7 +47,7 @@ a.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #1E5A5A;
+    color: #254d4d;
 	
 }
 
@@ -69,18 +71,18 @@ a.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color:  #1E5A5A;
+    color:  #254d4d;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color:#1E5A5A;
+    color:#254d4d;
     background-color: #333333;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color:#1E5A5A;
+    color:#254d4d;
     background-color: #333333;
 }
 
@@ -116,7 +118,7 @@ a.active {
 }
 .container>.navbar-header {
 	vertical-align: middle;
-	line-height: 39px;
+	line-height: 45px;
 	display: inline-block;
 	margin-left: 18px;
 	margin-right: 18px;
@@ -126,7 +128,7 @@ a.active {
 
 .container-table {
 	display: table;
-	height: 800px;
+	height: calc(100vh - (45px + 35px));
 	background: url("../../images/background.jpg") no-repeat;
 	background-size: cover;
 	background-position:center;
@@ -151,16 +153,14 @@ a.active {
 	color: #e1f0f0;
 }
 
-
-
 .navbar-footer>ul>li>a {
-	color: #505050;
+	color: #929292;
 	padding: 0;
-height: 29px;
+   height: 35px;
 }
 .navbar-footer>ul>li>a:hover,
 .navbar-footer>ul>li>a:focus {
-	color: #ACACAC;
+	color: #787878;
 	text-decoration: underline;
 	background-color: #333333;
 }
@@ -169,3 +169,17 @@ height: 29px;
 
 }
 
+.navbar-divider-header {
+            color: #929292;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-left: 8px;
+            margin-right: 8px;
+            
+        }
+
+        .navbar-divider-footer {
+            color: #929292;
+            margin-left: 8px;
+            margin-right: 8px;
+            }
