@@ -188,4 +188,7 @@ a.active {
     border-left: 1px solid  #929292;
     padding: 0 12px;
 }
-
+@media (max-width:780px){
+	.navbar-nav>li:nth-child(5), .navbar-footer  ul li {
+    border: none;
+	}
